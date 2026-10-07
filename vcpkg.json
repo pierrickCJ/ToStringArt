@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "cimg",
+    "eigen3",
+    {
+      "name": "vtk",
+      "features": [
+        "qt"
+      ]
+    },
+    "qtbase"
+  ],
+  "builtin-baseline": "07f4812200df3d3c931c0c8a6081d3b21fe2bf9f"
+}

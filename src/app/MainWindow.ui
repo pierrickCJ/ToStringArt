@@ -11,12 +11,12 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>String Art App</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="load_image_pButton">
       <property name="text">
        <string>Load Image/Solution</string>
       </property>
@@ -53,19 +53,19 @@
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_3">
            <item>
-            <widget class="QLabel" name="label_2">
+            <widget class="QLabel" name="number_of_points_label">
              <property name="text">
               <string>Number of points :</string>
              </property>
             </widget>
            </item>
            <item>
-            <widget class="QSpinBox" name="spinBox"/>
+            <widget class="QSpinBox" name="number_of_points_sBox"/>
            </item>
           </layout>
          </item>
          <item>
-          <widget class="QComboBox" name="comboBox">
+          <widget class="QComboBox" name="solver_choice_cBox">
            <item>
             <property name="text">
              <string>Custom Branch and Bound</string>
@@ -89,7 +89,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="pushButton">
+          <widget class="QPushButton" name="solve_pButton">
            <property name="text">
             <string>Solve</string>
            </property>
@@ -101,14 +101,14 @@
      </layout>
     </item>
     <item>
-     <widget class="QLabel" name="label_5">
+     <widget class="QLabel" name="image_label">
       <property name="text">
        <string>image</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="save_solution_pButton">
       <property name="text">
        <string>Save Solution</string>
       </property>
@@ -118,14 +118,14 @@
      <layout class="QHBoxLayout" name="horizontalLayout_5"/>
     </item>
     <item>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="animation_label">
       <property name="text">
        <string>Animation</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label_4">
+     <widget class="QLabel" name="infos_label">
       <property name="text">
        <string>infos</string>
       </property>
